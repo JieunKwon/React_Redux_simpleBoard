@@ -15,7 +15,7 @@ Redux allows to use funcion for input and output data between App component(pare
 
     A predictable state container for JavaScript appa
 
-    Link to Redux https://redux.js.org/introduction/getting-started
+    Link to <a href='https://redux.js.org/introduction/getting-started'>Redux https://redux.js.org/introduction/getting-started </a>
 
 
 2. src/App_reducer.js
