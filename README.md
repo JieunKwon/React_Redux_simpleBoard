@@ -4,6 +4,7 @@ CRUD Board with React and Redux
 
 It was updated from https://github.com/JieunKwon/React_create_simpleBoard
 
+
 <b> What is Redux? </b>
 
 A predictable state <b>container</b> for JavaScript apps
@@ -12,7 +13,7 @@ Link to <a href='https://redux.js.org/introduction/getting-started'>Redux https:
 
 
 
-<b> What was updated? </b>
+<b> What was updated from the previous version board? </b>
 
 1. Used Redux
 
