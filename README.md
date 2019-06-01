@@ -33,34 +33,34 @@ Redux allows to use funcion for input and output data between App component(pare
 Do every task for board item to save, read, and delete according to type of action.
 
         
-        const BOARD_SAVE = 'SAVE';
+         const BOARD_SAVE = 'SAVE';
 
-        const BOARD_REMOVE = 'REMOVE';
+         const BOARD_REMOVE = 'REMOVE';
 
-        const BOARD_READ = 'ONE';
+         const BOARD_READ = 'ONE';
 
-        const BOARD_LIST = 'LIST';
-        
-        ...
-        
-        export default function board_reducer(state = initialState, action) {
+         const BOARD_LIST = 'LIST';
+
+         ...
+
+         export default function board_reducer(state = initialState, action) {
 
 
-               switch(action.type) {
-               
-               case BOARD_SAVE:
-               
-               ...
-               
-               case BOARD_REMOVE:
-               
-               ...
-               
-               case BOARD_READ:
-               
-               ...
-               
-               }
-       }        
+                switch(action.type) {
+
+                case BOARD_SAVE:
+
+                ...
+
+                case BOARD_REMOVE:
+
+                ...
+
+                case BOARD_READ:
+
+                ...
+
+                }
+        }        
                
 
