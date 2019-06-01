@@ -82,7 +82,7 @@ React Redux provides a connect function to connect other component to the store.
        
 4. src/App_reducer.js
 
-Do every task for board item to save, read, and delete according to type of action.
+board_reducer function does every task for board item to save, read, and delete according to type of action.
 
         
          const BOARD_SAVE = 'SAVE';
