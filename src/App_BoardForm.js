@@ -2,11 +2,7 @@ import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
 
-
-
 import { board_save } from './App_reducer'
-
-
 
 class BoardForm extends Component {
 
@@ -58,12 +54,13 @@ class BoardForm extends Component {
 
             <div>
 
-                <input placeholder="title" size="50" name="brdtitle" value={this.state.brdtitle} onChange={this.handleChange} />
+                <table ><tr><td>
+                <input placeholder="title" size="60" name="brdtitle" value={this.state.brdtitle} onChange={this.handleChange} />
 
                 <input placeholder="name" name="brdwriter" value={this.state.brdwriter} onChange={this.handleChange} />
 
                 <button onClick={this.handleSave}>Save</button>
-
+                </td></tr></table>
             </div>
 
         );

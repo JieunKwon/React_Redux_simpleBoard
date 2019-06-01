@@ -2,13 +2,11 @@ import React, { Component } from 'react';
 
 import { connect } from 'react-redux';
 
-
+import './App.css';
 
 import BoardForm from './App_BoardForm';
 
 import BoardItem from './App_BoardItem';
-
-
 
 class App extends Component {
 
@@ -24,9 +22,9 @@ class App extends Component {
 
                <h3>React + Redux Board @Julia</h3>
 
-               <BoardForm/>
 
-               <table border="1">
+
+               <table class="boardTable">
 
                    <tbody>
 
@@ -39,6 +37,8 @@ class App extends Component {
                        <td width="100">Name</td>
 
                        <td width="100">Date</td>
+
+                       <td width="50">Delete</td>
 
                    </tr>
 
@@ -56,6 +56,7 @@ class App extends Component {
 
                </table>
 
+              <BoardForm/>
            </div>
 
        );

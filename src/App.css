@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -19,6 +20,7 @@
   color: white;
 }
 
+
 .App-link {
   color: #61dafb;
 }
@@ -30,4 +32,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.boardTable{
+
+  background-color:#dddddd;
+  border:thin solid #808080;
+  width:600px;
+  padding:1px;
+  text-align:left;
+  font-family:Arial;
+  font-size:14px;
+  color:#004554;
+}
+
+.boardTd{
+  background-color:#ffffff;
+  height: 25px;
+  margin: 10px; 
 }
