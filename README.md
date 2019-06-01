@@ -85,3 +85,6 @@ Do every task for board item to save, read, and delete according to type of acti
         }        
                
 
+<b> View </b>
+
+<img src="img/list.PNG" width="500px">
