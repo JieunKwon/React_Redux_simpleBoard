@@ -15,7 +15,7 @@ React Redux is the official React binding for Redux.
 
 It lets React components read data from a Redux store, and dispatch actions to the store to update data.
 
-It shows the redux flow 
+It shows the flow how State changes 
 
 <img src="img/redux_flow.PNG" width="600px">
 
