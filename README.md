@@ -18,9 +18,49 @@ Link to <a href='https://redux.js.org/introduction/getting-started'>Redux https:
 
 Redux allows to use funcion for input and output data between App component(parent) and board items.
  
+        
+2. src/BoardItem.js 
+       
+       import { connect } from 'react-redux';
+       
+       ...
+       
+       export default connect()(BoardItem);
+       
+       
+3. src/App_reducer.js
 
-2. src/App_reducer.js
+Do every task for board item to save, read, and delete according to type of action.
 
-  
- 
- 
+        
+        const BOARD_SAVE = 'SAVE';
+
+        const BOARD_REMOVE = 'REMOVE';
+
+        const BOARD_READ = 'ONE';
+
+        const BOARD_LIST = 'LIST';
+        
+        ...
+        
+        export default function board_reducer(state = initialState, action) {
+
+
+               switch(action.type) {
+               
+               case BOARD_SAVE:
+               
+               ...
+               
+               case BOARD_REMOVE:
+               
+               ...
+               
+               case BOARD_READ:
+               
+               ...
+               
+               }
+       }        
+               
+
