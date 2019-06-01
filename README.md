@@ -6,7 +6,7 @@ It was updated from https://github.com/JieunKwon/React_create_simpleBoard
 
 <b> What is Redux? </b>
 
-A predictable state container for JavaScript appa
+A predictable state <b>container</b> for JavaScript apps
 
 Link to <a href='https://redux.js.org/introduction/getting-started'>Redux https://redux.js.org/introduction/getting-started </a>
 
