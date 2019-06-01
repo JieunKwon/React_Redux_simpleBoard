@@ -13,7 +13,12 @@ A predictable state <b>container</b> for JavaScript apps.
 
 React Redux is the official React binding for Redux. 
 
-It lets your React components read data from a Redux store, and dispatch actions to the store to update data.
+It lets React components read data from a Redux store, and dispatch actions to the store to update data.
+
+It shows the redux flow 
+
+<img src="img/redux_flow.PNG" width="600px">
+
 
 Link to <a href='https://redux.js.org/introduction/getting-started'>Redux https://redux.js.org/introduction/getting-started </a>
 
