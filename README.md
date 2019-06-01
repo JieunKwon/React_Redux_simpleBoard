@@ -9,7 +9,7 @@ It was updated from React Simple Board https://github.com/JieunKwon/React_create
 
 A predictable state <b>container</b> for JavaScript apps.
 
-<b> What is React-Redux </b>
+> <b> What is React-Redux </b>
 
 React Redux is the official React binding for Redux. 
 
@@ -19,7 +19,7 @@ Link to <a href='https://redux.js.org/introduction/getting-started'>Redux https:
 
 
 
-<b> What was updated from the previous version board? </b>
+> <b> What was updated from the previous version board? </b>
 
 1. Used React-Redux
 
@@ -111,6 +111,6 @@ Do every task for board item to save, read, and delete according to type of acti
         }        
                
 
-<b> View </b>
+> <b> View </b>
 
 <img src="img/list.PNG" width="500px">
