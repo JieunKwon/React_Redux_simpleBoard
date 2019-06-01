@@ -21,6 +21,6 @@ Redux allows to use funcion for input and output data between App component(pare
 
 2. src/App_reducer.js
 
-This source 
+  
  
  
