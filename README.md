@@ -5,7 +5,7 @@ CRUD Board with React-Redux 7.0.3
 It was updated from React Simple Board https://github.com/JieunKwon/React_create_simpleBoard
 
 
-<b> What is Redux? </b>
+> <b> What is Redux? </b>
 
 A predictable state <b>container</b> for JavaScript apps.
 
