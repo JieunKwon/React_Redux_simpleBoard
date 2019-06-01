@@ -116,6 +116,12 @@ board_reducer function does every task for board item to save, read, and delete 
         }        
                
 
-> <b> View </b>
+> <b> View the list of Board</b>
+
+To create new text, enter text in the box and then click save button.
+
+To edit the item of board, click title and then edit.
+
+To delete the item of board, click X button.
 
 <img src="img/list.PNG" width="500px">
